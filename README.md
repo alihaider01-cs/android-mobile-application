@@ -169,8 +169,6 @@ Local Data Persistence
 
 ---
 
----
-
 # 💾 Data Management
 
 The application stores task-related information locally.
