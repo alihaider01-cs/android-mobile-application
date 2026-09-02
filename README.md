@@ -64,7 +64,7 @@ This project was developed as an academic Android application project and provid
 
 ## 🏠 Home Screen
 
-![Home Screen](home-screen.png)
+![Home Screen](./home-screen.png)
 
 The home screen provides the main task management interface where users can view and manage their daily tasks.
 
