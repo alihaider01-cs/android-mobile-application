@@ -167,7 +167,7 @@ Application Logic
       ↓
 Local Data Persistence
 
----
+```
 
 # 💾 Data Management
 
