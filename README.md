@@ -64,7 +64,7 @@ This project was developed as an academic Android application project and provid
 
 ## 🏠 Home Screen
 
-![Home Screen](./home-screen.png)
+![Home Screen](./screenshots/home-screen.png)
 
 The home screen provides the main task management interface where users can view and manage their daily tasks.
 
@@ -72,7 +72,7 @@ The home screen provides the main task management interface where users can view
 
 ## ➕ Add Task
 
-![Add Task Screen](add-task-screen.png)
+![Add Task Screen](./screenshots/add-task-screen.png)
 
 The Add Task screen allows users to create new tasks and provide the required task information before adding them to their task list.
 
@@ -80,7 +80,7 @@ The Add Task screen allows users to create new tasks and provide the required ta
 
 ## 📊 Dashboard
 
-![Dashboard](dashboard-screen.png)
+![Dashboard](./screenshots/dashboard-screen.png)
 
 The dashboard provides an overview of productivity and task-related statistics, helping users monitor their progress.
 
@@ -88,7 +88,7 @@ The dashboard provides an overview of productivity and task-related statistics, 
 
 ## ⏱️ Focus Timer
 
-![Timer Screen](timer-screen.png)
+![Timer Screen](./screenshots/timer-screen.png)
 
 The focus timer helps users maintain concentration during dedicated productivity sessions.
 
@@ -96,7 +96,7 @@ The focus timer helps users maintain concentration during dedicated productivity
 
 ## 🏆 Achievements
 
-![Achievements Screen](achievements-screen.png)
+![Achievements Screen](./screenshots/achievements-screen.png)
 
 The achievements section tracks user progress and productivity milestones.
 
@@ -104,7 +104,7 @@ The achievements section tracks user progress and productivity milestones.
 
 ## ⚙️ Settings
 
-![Settings Screen](settings-screen.png)
+![Settings Screen](./screenshots/settings-screen.png)
 
 The settings screen provides controls for customizing application behavior and preferences.
 
