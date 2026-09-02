@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/windowBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚙️ Settings"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp"
+        app:cardBackgroundColor="?attr/colorSurface">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎨 Theme Picker"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurface" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_themes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/radio_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Default (Purple/Teal)"
+                    android:textColor="?attr/colorOnSurface" />
+
+                <RadioButton
+                    android:id="@+id/radio_ocean"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ocean Blue"
+                    android:textColor="?attr/colorOnSurface" />
+
+                <RadioButton
+                    android:id="@+id/radio_sunset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sunset Orange"
+                    android:textColor="?attr/colorOnSurface" />
+
+                <RadioButton
+                    android:id="@+id/radio_forest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Forest Green"
+                    android:textColor="?attr/colorOnSurface" />
+
+                <RadioButton
+                    android:id="@+id/radio_purple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Purple Dream"
+                    android:textColor="?attr/colorOnSurface" />
+
+                <RadioButton
+                    android:id="@+id/radio_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dark Mode"
+                    android:textColor="?attr/colorOnSurface" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_apply_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Apply Theme"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?attr/colorOnPrimary" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp"
+        app:cardBackgroundColor="?attr/colorSurface">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🗄️ Data Management"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurface" />
+
+            <Button
+                android:id="@+id/button_delete_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Delete All Tasks"
+                android:backgroundTint="@android:color/holo_red_dark" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

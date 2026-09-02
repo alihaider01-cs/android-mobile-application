@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.TaskManager" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/purple_500</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="android:windowBackground">@color/gray_light</item>
+    </style>
+
+    <!-- Gradient Background Theme -->
+    <style name="Theme.TaskManager.Gradient" parent="Theme.TaskManager">
+        <item name="android:windowBackground">@drawable/gradient_background</item>
+    </style>
+
+    <!-- Custom Themes -->
+    <style name="Theme.TaskManager.Ocean" parent="Theme.TaskManager">
+        <item name="colorPrimary">@color/ocean_primary</item>
+        <item name="colorPrimaryVariant">@color/ocean_primary_variant</item>
+        <item name="colorSecondary">@color/ocean_secondary</item>
+        <item name="android:statusBarColor">@color/ocean_primary_variant</item>
+        <item name="android:windowBackground">#E0F7FA</item> <!-- Light Cyan -->
+        <item name="colorSurface">#B2EBF2</item>
+        <item name="colorOnSurface">#006064</item>
+    </style>
+
+    <style name="Theme.TaskManager.Sunset" parent="Theme.TaskManager">
+        <item name="colorPrimary">@color/sunset_primary</item>
+        <item name="colorPrimaryVariant">@color/sunset_primary_variant</item>
+        <item name="colorSecondary">@color/sunset_secondary</item>
+        <item name="android:statusBarColor">@color/sunset_primary_variant</item>
+        <item name="android:windowBackground">#FFF3E0</item> <!-- Light Orange -->
+        <item name="colorSurface">#FFE0B2</item>
+        <item name="colorOnSurface">#E65100</item>
+    </style>
+
+    <style name="Theme.TaskManager.Forest" parent="Theme.TaskManager">
+        <item name="colorPrimary">@color/forest_primary</item>
+        <item name="colorPrimaryVariant">@color/forest_primary_variant</item>
+        <item name="colorSecondary">@color/forest_secondary</item>
+        <item name="android:statusBarColor">@color/forest_primary_variant</item>
+        <item name="android:windowBackground">#E8F5E9</item> <!-- Light Green -->
+        <item name="colorSurface">#C8E6C9</item>
+        <item name="colorOnSurface">#1B5E20</item>
+    </style>
+
+    <style name="Theme.TaskManager.Purple" parent="Theme.TaskManager">
+        <item name="colorPrimary">@color/dream_primary</item>
+        <item name="colorPrimaryVariant">@color/dream_primary_variant</item>
+        <item name="colorSecondary">@color/dream_secondary</item>
+        <item name="android:statusBarColor">@color/dream_primary_variant</item>
+        <item name="android:windowBackground">#F3E5F5</item> <!-- Light Purple -->
+        <item name="colorSurface">#E1BEE7</item>
+        <item name="colorOnSurface">#4A148C</item>
+    </style>
+
+    <style name="Theme.TaskManager.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#B0B0B0</item>
+    </style>
+</resources>

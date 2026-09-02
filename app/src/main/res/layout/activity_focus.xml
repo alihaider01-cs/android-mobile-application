@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_vibrant"
+    android:padding="24dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonBack"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Back"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textFocusTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Focusing on:"
+        android:textColor="#E0E0E0"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/textTaskName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonBack"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/textTaskName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sample Task Name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/cardTimer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textFocusTitle" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardTimer"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="32dp"
+        app:cardBackgroundColor="#33FFFFFF"
+        app:cardCornerRadius="140dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textTaskName">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:id="@+id/progressTimer"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/timer_background"
+                android:indeterminate="false"
+                android:max="1500"
+                android:progress="1500"
+                android:progressDrawable="@drawable/circular_timer_drawable" />
+
+            <TextView
+                android:id="@+id/textCountdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="25:00"
+                android:textColor="@color/white"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonStart"
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="48dp"
+        android:text="Start Focus"
+        android:textSize="18sp"
+        app:backgroundTint="#48BB78"
+        app:cornerRadius="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardTimer" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonStop"
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:text="Stop"
+        android:visibility="gone"
+        app:backgroundTint="#F56565"
+        app:cornerRadius="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/buttonStart" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

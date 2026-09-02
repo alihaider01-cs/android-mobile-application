@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Outer Ring -->
+    <path
+        android:pathData="M50,15 A35,35 0 1,1 15,50 A35,35 0 0,1 50,15"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Inner Ring -->
+    <path
+        android:pathData="M50,32 A18,18 0 1,1 32,50 A18,18 0 0,1 50,32"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Arrow Shaft -->
+    <path
+        android:pathData="M85,15 L50,50"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Arrow Head/Center Bullseye -->
+    <path
+        android:pathData="M50,50 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#FFFFFF" />
+    <!-- Arrow Fletching (V-shape at the end) -->
+    <path
+        android:pathData="M78,12 L88,22 M88,12 L78,22"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="10"
+        android:strokeLineCap="round" />
+</vector>
