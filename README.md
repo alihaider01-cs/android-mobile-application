@@ -166,3 +166,241 @@ ViewModel
 Application Logic
       ↓
 Local Data Persistence
+
+---
+
+---
+
+# 💾 Data Management
+
+The application stores task-related information locally.
+
+Task information includes:
+
+- Task ID
+- Task name
+- Priority
+- Category
+- Completion status
+- Creation timestamp
+- Completion timestamp
+- Reminder time
+
+The project uses **SharedPreferences together with Gson** for local data persistence and serialization.
+
+---
+
+# 🔔 Background Functionality
+
+The application demonstrates several Android background capabilities.
+
+## Focus Service
+
+A foreground service is used to support the focus timer and maintain timer functionality while the application is not actively being displayed.
+
+## Reminder Receiver
+
+Broadcast receiver functionality is used to handle scheduled task reminders and notification events.
+
+## Home Screen Widget
+
+An Android App Widget provides quick access to task-related information directly from the device home screen.
+
+---
+
+# 🧩 Main Application Components
+
+The project contains several major components:
+
+- Main Activity
+- Home / Task Management
+- Add Task
+- Dashboard / Statistics
+- Achievements
+- Settings
+- Focus Timer
+- Focus Service
+- Task ViewModel
+- Reminder Receiver
+- Task Widget Provider
+- Splash Screen
+- Theme Helper
+- Sound Helper
+
+---
+
+# 🎯 Project Objectives
+
+The main objectives of this project were to:
+
+- Apply Android development concepts in a practical application
+- Develop a functional task management system
+- Practice Kotlin programming
+- Understand Android application architecture
+- Implement local data persistence
+- Work with ViewModel and LiveData
+- Implement background services
+- Handle notifications and reminders
+- Design user-friendly Android interfaces
+- Develop a productivity-focused mobile application
+
+---
+
+# 📚 What I Learned
+
+Through this project, I gained practical experience in:
+
+- Kotlin programming
+- Android application development
+- Android Studio and Gradle
+- UI and layout development
+- Fragment-based application design
+- View Binding
+- ViewModel and LiveData
+- Navigation Component
+- Local data persistence
+- JSON serialization with Gson
+- Coroutines and background operations
+- Foreground services
+- Broadcast receivers
+- Notifications
+- Android widgets
+- Application debugging
+- Problem solving
+- Software development
+
+This project improved my understanding of how different Android components work together to create a complete mobile application.
+
+---
+
+# 🚀 How to Run the Project
+
+## Requirements
+
+Before running the project, make sure you have:
+
+- Android Studio
+- Android SDK
+- Compatible JDK
+- Android device or emulator
+
+## Steps
+
+1. Clone this repository.
+2. Open the project in Android Studio.
+3. Allow Gradle to synchronize and download the required dependencies.
+4. Connect an Android device or start an Android emulator.
+5. Build and run the application.
+
+---
+
+# 📂 Project Structure
+
+The main project structure includes:
+
+- `app/` — Main Android application module
+- `app/src/main/java/` — Kotlin source code
+- `app/src/main/res/` — Application resources
+- `app/src/main/res/layout/` — Application layouts
+- `app/src/main/res/drawable/` — Drawable resources
+- `app/src/main/res/navigation/` — Navigation configuration
+- `app/src/main/res/values/` — Strings, themes, and other values
+- `screenshots/` — Application screenshots
+- `AndroidManifest.xml` — Android application configuration
+- `build.gradle.kts` — Gradle build configuration
+- `settings.gradle.kts` — Project settings
+- `README.md` — Project documentation
+
+---
+
+# 🔧 Key Concepts Demonstrated
+
+This project demonstrates practical implementation of important Computer Science and software development concepts.
+
+### Object-Oriented Programming
+
+Used Kotlin classes and structured components to organize application functionality.
+
+### Data Management
+
+Implemented local storage and serialization for persistent task information.
+
+### Software Architecture
+
+Used Android architecture components to separate UI and application logic.
+
+### Event-Driven Programming
+
+Handled user interactions, notifications, reminders, and timer events.
+
+### Concurrency & Background Processing
+
+Used coroutines and Android background components for operations that should not block the UI.
+
+### User Interface Design
+
+Created multiple screens focused on usability and productivity.
+
+---
+
+# 🔮 Future Improvements
+
+Possible future improvements include:
+
+- Cloud synchronization
+- User authentication
+- Firebase integration
+- Cross-device task synchronization
+- Advanced productivity analytics
+- Recurring tasks
+- More customizable reminders
+- Improved accessibility
+- Additional productivity statistics
+- Automated testing
+- Enhanced database architecture
+
+---
+
+# 🎓 Academic Project
+
+This application was developed as part of my **Computer Science academic coursework** to gain practical experience in Android application development and software engineering.
+
+The project allowed me to transform concepts learned in class into a functional mobile application while developing my programming, problem-solving, debugging, and software development skills.
+
+---
+
+# 👨‍💻 Developer
+
+**Ali Haider**
+
+Computer Science Student
+
+### Areas of Interest
+
+- Software Development
+- Artificial Intelligence & Machine Learning
+- Data Science
+- Databases
+- Mobile Application Development
+- Computer Science Research
+
+---
+
+# 📌 Project Status
+
+**Completed Academic Project**
+
+The application demonstrates:
+
+- Task management
+- Task creation
+- Productivity tracking
+- Focus sessions
+- Achievements
+- Reminders
+- Notifications
+- Android application components
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository and its implementation.
