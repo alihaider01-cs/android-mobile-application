@@ -1,5 +1,5 @@
  # 📱 Task Manager & Productivity App
-
+https://github.com/alihaider01-cs/android-mobile-application/tree/main
 A feature-rich Android task management and productivity application developed using **Kotlin and Android Studio**. The application helps users organize daily tasks, monitor productivity, maintain focus through a dedicated timer, and track achievements and statistics.
 
 This project was developed as an academic Android application project and provided hands-on experience with Android development, UI design, application architecture, data persistence, background services, notifications, and user-focused functionality.
@@ -208,24 +208,24 @@ An Android App Widget provides quick access to task-related information directly
 
 ---
 
-# 🧩 Main Application Components
+ # 🧩 Main Application Components
 
 The project contains several major components:
 
-- Main Activity
-- Home / Task Management
-- Add Task
-- Dashboard / Statistics
-- Achievements
-- Settings
-- Focus Timer
-- Focus Service
-- Task ViewModel
-- Reminder Receiver
-- Task Widget Provider
-- Splash Screen
-- Theme Helper
-- Sound Helper
+- **Main Activity**
+- **Home / Task Management**
+- **Add Task**
+- **Dashboard / Statistics**
+- **Achievements**
+- **Settings**
+- **Focus Timer**
+- **Focus Service**
+- **Task ViewModel**
+- **Reminder Receiver**
+- **Task Widget Provider**
+- **Splash Screen**
+- **Theme Helper**
+- **Sound Helper**
 
 ---
 
@@ -250,24 +250,24 @@ The main objectives of this project were to:
 
 Through this project, I gained practical experience in:
 
-- Kotlin programming
-- Android application development
-- Android Studio and Gradle
-- UI and layout development
-- Fragment-based application design
-- View Binding
-- ViewModel and LiveData
-- Navigation Component
-- Local data persistence
-- JSON serialization with Gson
-- Coroutines and background operations
-- Foreground services
-- Broadcast receivers
-- Notifications
-- Android widgets
-- Application debugging
-- Problem solving
-- Software development
+- **Kotlin programming**
+- **Android application development**
+- **Android Studio and Gradle**
+- **UI and layout development**
+- **Fragment-based application design**
+- **View Binding**
+- **ViewModel and LiveData**
+- **Navigation Component**
+- **Local data persistence**
+- **JSON serialization with Gson**
+- **Coroutines and background operations**
+- **Foreground services**
+- **Broadcast receivers**
+- **Notifications**
+- **Android widgets**
+- **Application debugging**
+- **Problem solving**
+- **Software development**
 
 This project improved my understanding of how different Android components work together to create a complete mobile application.
 
@@ -317,29 +317,29 @@ The main project structure includes:
 
 This project demonstrates practical implementation of important Computer Science and software development concepts.
 
-### Object-Oriented Programming
+## Object-Oriented Programming
 
-Used Kotlin classes and structured components to organize application functionality.
+Kotlin classes and structured components were used to organize application functionality and maintain a modular codebase.
 
-### Data Management
+## Data Management
 
-Implemented local storage and serialization for persistent task information.
+Local storage and serialization were implemented to maintain persistent task information.
 
-### Software Architecture
+## Software Architecture
 
-Used Android architecture components to separate UI and application logic.
+Android architecture components were used to separate the user interface from application logic and data management.
 
-### Event-Driven Programming
+## Event-Driven Programming
 
-Handled user interactions, notifications, reminders, and timer events.
+The application handles user interactions, notifications, reminders, timer events, and other system events.
 
-### Concurrency & Background Processing
+## Concurrency & Background Processing
 
-Used coroutines and Android background components for operations that should not block the UI.
+Coroutines and Android background components were used to perform operations without blocking the main UI thread.
 
-### User Interface Design
+## User Interface Design
 
-Created multiple screens focused on usability and productivity.
+Multiple screens were designed with a focus on usability, simplicity, and productivity.
 
 ---
 
@@ -375,7 +375,7 @@ The project allowed me to transform concepts learned in class into a functional 
 
 Computer Science Student
 
-### Areas of Interest
+## Areas of Interest
 
 - Software Development
 - Artificial Intelligence & Machine Learning
